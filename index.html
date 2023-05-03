@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="assets/sprite_07.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="p5.js"></script>
+    <meta charset="utf-8">
+    <title>Jeffrey Wu</title>
+  </head>
+  <body>
+    <div>
+      <script src="sketch.js"></script>
+      <script src="utils.js"></script>
+      <script src="config.js"></script>
+    </div>
+
+    <div class="content">
+      <div id="myInfo">
+        <img src="assets/profilePic.png" id="profilePic">
+        <div>
+          <h2 id="myName">Jeffrey Wu</h2>
+          <p>Computer Science Student @SFU</p>
+          <p>JeffreyWu1999@gmail.com</p>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="sectionHead">About</h3>
+        <p class="paragraphs">
+          👋 I'm an aspiring software developer looking for internship
+          opportunities. I enjoy solving problems, learning new things, and building
+          tools driven by data.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="sectionHead">Work</h3>
+        <div class="flexContainer">
+          <p class="leftFlexBox">Sep 2022 - Apr 2023</p>
+          <div>
+            <p id="absoluteSoftware">Absolute Software</p>
+            <p>Software Developer in Test</p>
+            <p id="myTasks">
+              automating tests | full stack development | scripting |  
+              QA sign-off
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="sectionHead">Projects</h3>
+        <div class="flexContainer">
+          <p class="leftFlexBox">Sentiment Analysis</p>
+          <p id="projectDesc">
+            <strong>BERT machine learning model</strong> that judges positive or negative
+            sentiment of texts. Trained with twitter and amazon review data
+          </p>
+        </div>
+        <div class="flexContainer">
+          <p class="leftFlexBox">Lowball Estimator</p>
+          <p id="projectDesc">
+          <strong>Web scraper</strong> that gathers data from rew.ca to determine
+            if a property is listed under market value to start a bidding war
+          </p>
+        </div>
+        <div class="flexContainer">
+          <p class="leftFlexBox">Task Timer</p>
+          <p id="projectDesc">
+            Stopwatch and task tracker built with <strong>React</strong>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="sectionHead">Courses</h3>
+        <p id="myCourses">
+          Software Engineering • Databases • Networking • Operating Systems • Data Structures
+          and Algorithms • Computer Systems • <strong>Lots</strong> of Math
+        </p>
+      </div>  
+
+      <div>
+        <h3 class="sectionHead">links</h3>
+        <div class="flexContainer">
+          <p id="leftFlexBoxLinkTitles">Github</p>
+          <a href="https://github.com/jeffwu99" id="links"> @jeffwu99</a>
+        </div>
+        <div class="flexContainer">
+          <p id="leftFlexBoxLinkTitles">LinkedIn</p>
+          <a href="https://www.linkedin.com/in/jeffreywu99/" id="links"> @Jeffrey Wu</a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="sectionHead">Map Editor</h3>
+        <p class="newSeed">This backdrop is generated from an 8 character seed</p>
+        <p class="seedDisplay"> yo</p>
+        <div id="inputDiv">
+          <p class="newSeed">New Seed</p>
+          <input type="text" maxlength="8" id="newSeed">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
