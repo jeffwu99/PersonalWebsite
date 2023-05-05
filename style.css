@@ -136,6 +136,7 @@ p.paragraphs {
 
 .seedDisplay {
   font-family: chillax, tahoma;
+  margin-top: 5px;
   margin-left: 25px;
   font-size: 18px;
 }
@@ -144,7 +145,7 @@ input {
   width: 160px;
   height: 20px;
   margin-top: 7px;
-  margin-left: 25px;
+  margin-left: 50px;
   border: 3px solid;
   border-radius: 5px;
   border-color: #333333;
